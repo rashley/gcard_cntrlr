@@ -1,0 +1,22 @@
+gcard_status.rb
+  class gcard
+    temp
+    clocks (mem and core)
+    perocess pid
+    fan_speed
+
+    def set_clocks (mem, core)
+    def set_fanspeed (%speed)
+    def start_proc (*params) # stores pid
+    def stop_proc # get's pid internally
+
+gcard.rb
+  require gcard_status
+  
+  set parameters of gcard
+  start mining proc
+  while true
+    monitor temp every 5 min
+    if it's above 72, slow down the core clock
+  end
+  
